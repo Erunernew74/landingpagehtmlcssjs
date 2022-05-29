@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="containerNav">
+        <a>
+            <img class="logo" src="/images/Logo-1-copy-9 (1).png" alt="">
+        </a>
+        </div>
+        <div class="items">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkBtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="list">
+                <li><a href="#hero" target="_top"> HOME</a></li>
+                <li><a href="#card"> CARD</a></li>
+                <li><a href="#about"> ABOUT</a></li>
+                <li><a href="#department"> DEPARTMENT</a></li>
+                <li><a href="#faq"> FAQ</a></li>
+                <li><a href="#contact"> CONTACT</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="herosection" id="hero">
+      <h1>Professional Family Health Care</h1>
+      <p>CREATE YOUR MEDICAL WEBSITE USING JEVELIN</p>
+      <div class="contaienrIconHero" data-aos="fade-up">
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-handshake-angle"></i>
+        <i class="fa-solid fa-hands-asl-interpreting"></i>
+      </div>
+    </section>
+
+    <!-- SECTION CARDS -->
+    <div class="cardContainer" id="card" data-aos="fade-right">
+        <div class="cardItems" id="cardItems1">
+            <h1 class="titleCard">1-800-600-300</h1>
+            <h3 class="subTitleCard">EMERGENCY SERVICE</h3>
+            <P class="descriptionCard">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis
+                odio mattis in. Quisque dapibus aliquet dictum. Integer dapibus
+                ullamcorper est, ac .</P>
+            <button>See More</button>
+        </div>
+        <div class="cardItems" id="cardItems2">
+            <h1 class="titleCard">1-800-600-300</h1>
+            <h3 class="subTitleCard">EMERGENCY SERVICE</h3>
+            <P class="descriptionCard">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis
+                odio mattis in. Quisque dapibus aliquet dictum. Integer dapibus
+                ullamcorper est, ac .</P>
+            <button>See More</button>
+        </div>
+        <div class="cardItems" id="cardItems3">
+            <h1 class="titleCard">1-800-600-300</h1>
+            <h3 class="subTitleCard">EMERGENCY SERVICE</h3>
+            <P class="descriptionCard">Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis
+                odio mattis in. Quisque dapibus aliquet dictum. Integer dapibus
+                ullamcorper est, ac .</P>
+            <button>See More</button>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section class="aboutContainer" id="about">
+        <div class="containerImageAbout">
+            <img src="/images/Layer-1200.png" >
+        </div>
+
+        <div class="containerTextAbout">
+            <h1 class="aboutTitle"><span class="spanTitle">About</span>  Jevelin Clinic</h1>
+            <p class="aboutSubTitle">PROFESSIONAL CARE</p>
+            <p class="aboutDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.</p>
+            
+            <div class="accordion" id="accordionExample" data-aos="fade-left" data-aos-duration="1500">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>     
+          
+    </section>
+
+    <section class="departmentContainer" id="department">
+        <div class="departmentText">
+          <h1>How we can help you</h1>
+          <p>READ MORE ABOUT OUR SERVICES</p>
+        </div>
+
+          <div class="departmentIcons">
+            <div class="devIconsText">
+              <img src="/images/icon3_0000_.jpg" alt="">
+              <h4>Radiology</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+            </div>
+            <div class="devIconsText">
+              <img src="/images/icon3_0001_.jpg" alt="">
+              <h4>Pediatrics</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+            </div>
+            <div class="devIconsText">
+              <img src="/images/icon3_0002_.jpg" alt="">
+              <h4>Laboratory</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+            </div>
+            <div class="devIconsText">
+              <img src="/images/icon3_0003_.jpg" alt="">
+              <h4>Dentistry</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+            </div>
+            <div class="devIconsText">
+              <img src="/images/icon3_0004_.jpg" alt="">
+              <h4>Ophthalmology</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+            </div>
+            <div class="devIconsText">
+              <img src="/images/icon3_0005_.jpg" alt="">
+              <h4>Cardiology</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eleifend, orci sed egestas faucibus, leo sapien laoreet massa, feugiat</p>
+            </div>
+
+    </section>
+
+    <!-- SECTION JENNA BERG -->
+    <div class="jennaBergContainer">
+      <div class="jennaText">
+        <h1 data-aos="fade-right" data-aos-duration="1500">Jenna Berg</h1>
+        <p data-aos="fade-right" data-aos-duration="1500">PROFESSIONAL DENTIST</p>
+        <h6 data-aos="fade-right" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem</h6>
+        <p id="jennaDesc" data-aos="fade-right" data-aos-duration="3000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus orci ex, pulvinar nec finibus ut, cursus eget libero. In dictum sem non sapien condimentum aliquet. Nulla facilisi. Mauris efficitur dolor dolor, id porta nulla interdum vitae.</p>
+        <button data-aos="flip-left">View All Doctors</button>
+      </div>
+      <div class="jennaImage" data-aos="fade-left" data-aos-duration="1500">
+        
+      </div>
+    </div>
+
+   <section class="containerNumber">
+      <div class="numberItems">
+        <h1>53</h1>
+        <hr >
+        <p>Certified Doctors</p>
+       </div>
+      <div class="numberItems">
+        <h1>48</h1>
+        <hr >
+        <p>Medical Services</p>
+       </div>
+      <div class="numberItems">
+        <h1>12</h1>
+        <hr >
+        <p>Different Affiliates</p>
+       </div>
+      <div class="numberItems">
+        <h1>96</h1>
+        <hr >
+        <p>Offered Programs</p>
+       </div>
+   </section>
+
+   <!-- FAQ SECTION -->
+   <section class="faqContainer" id="faq">
+     <div class="faqTitle">
+       <h1>Frequently Asked <span class="spanTitle">Questions</span> </h1>
+       <button>View All</button>
+     </div>
+     <div class="accordionContainer">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. </div>
+          </div>
+      </div>
+     </div>
+      
+   </section>
+
+   <section class="maps" id="contact">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.256712997461!2d9.195889250615647!3d45.4646323789984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6a506f43701%3A0x49a7c0201c477ba3!2sVia%20Durini%2C%2020122%20Milano%20MI!5e0!3m2!1sit!2sit!4v1652775755557!5m2!1sit!2sit" 
+      width="100%" 
+      height="500" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      eferrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <div class="addressContainer">
+      <div class="addressItems">
+        <div>
+          <i class="fa-solid fa-location-dot"></i>
+        </div>
+        
+        <div class="address">
+          <h4>ADDRESS</h4>
+          <p>Street number 5, Town, Country</p>
+        </div>
+      </div>
+      <div class="addressItems">
+        <div>
+          <i class="fa-solid fa-clock"></i>
+        </div>
+        
+        <div class="address">
+          <h4>WORK HOURS</h4>
+          <p>Mon. – Frie. 11AM – 19PM</p>
+        </div>
+      </div>
+      <div class="addressItems">
+        <div>
+          <i class="fa-solid fa-at"></i>
+        </div>
+        
+        <div class="address">
+          <h4>E-MAIL</h4>
+          <p>brandname@company.com</p>
+        </div>
+      </div>
+      <div class="addressItems">
+        <div>
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        
+        <div class="address">
+          <h4>TELEPHONE</h4>
+          <p>(+371) 512 566 921</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   
+   <section class="appuntamento">
+     <div class="titleAppuntamento">
+       <h1>Make An Appointment</h1>
+       <p>AND WE WILL CONTACT YOU</p>
+     </div>
+     <div class="containerForm">
+       
+          <input type="text" placeholder="Full Name">
+          <input type="text" placeholder="Email">
+          <input type="text" placeholder="Phone">
+          <input type="date" placeholder="gg/mm/aaaa">
+          <select name="select" id="select">
+            <option value="Subject">Subject</option>
+            <option value="Opthalmology">Opthalmology</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Dentistry">Dentistry</option>
+            <option value="Laboratory">Laboratory</option>
+          </select>
+          <button>Submit</button>
+       
+       
+     </div>
+   </section>
+
+   <section class="footer">
+     <div class="information">
+       <h1>Important information</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum lacinia turpis, ut facilisis sapien lacinia eget. Cras interdum ligula elit, maximus molestie ex placerat non.</p>
+     </div>
+     <div class="logoBrand">
+       <img src="/images/Logo-1-copy-9 (1).png" alt="">
+     </div>
+     <div class="iconFooter">
+       <div class="iconFooteritems">
+         <i class="fa-solid fa-street-view"></i>
+         <h4>Street number 5, Town, Milan</h4>
+       </div>
+       <div class="iconFooteritems">
+        <i class="fa-solid fa-phone"></i>
+         <h4>(+0039) 02 12558 8898 5</h4>
+       </div>
+       <div class="iconFooteritems">
+        <i class="fa-solid fa-at"></i>
+         <h4>brandname@compant.com</h4>
+       </div>
+       <div class="iconFooteritems">
+          <i class="fa-solid fa-clock"></i>
+         <h4>Mon. - Frie. 11AM - 19PM</h4>
+       </div>
+      
+     </div>
+   </section>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        once: true
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
